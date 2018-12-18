@@ -518,7 +518,7 @@ public class StepperIndicator extends View implements ViewPager.OnPageChangeList
         stepTextNumberPaint = new Paint(indicatorPaint);
         stepTextNumberPaint.setTextSize(getResources().getDimension(R.dimen.stpi_default_text_size));
 
-        showStepTextNumber = a.getBoolean(R.styleable.StepperIndicator_stpi_showStepNumberInstead, false);
+        showStepTextNumber = a.getBoolean(R.styleable.StepperIndicator_stpi_showStepNumberInstead, true);
 
         // Get the resource from the context style properties
         final int stepsIndicatorColorsResId = a
